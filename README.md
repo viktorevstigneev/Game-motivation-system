@@ -1,9 +1,9 @@
-# Simple React Webpack boilerplate
+# Simple React Webpack Project
 
-A ready to use simple boilerplate for React Apps.
+A ready to use simple  React Apps.
 
 ## Instructions
 
-* Clone the repo
+* Clone the repos
 * Run `npm install`
 * Run `npm start`
