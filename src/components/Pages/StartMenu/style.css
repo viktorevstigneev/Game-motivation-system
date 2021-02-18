@@ -1,0 +1,15 @@
+.visualy-hidden {
+	display: none;
+}
+.start-window {
+	width: 300px;
+	margin: 15% auto;
+}
+
+.start-window__button {
+	display: block;
+	text-align: center;
+	width: inherit;
+	margin: 10px;
+	padding: 10px 0;
+}

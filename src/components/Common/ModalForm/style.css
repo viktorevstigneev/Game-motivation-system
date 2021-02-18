@@ -1,0 +1,19 @@
+.authorization-window {
+	position: absolute;
+	left: 40%;
+	top: 0;
+	width: 300px;
+	margin: 20% auto;
+}
+/* -------------- */
+label {
+	display: none;
+}
+/* --------------- */
+.authorization-form__input {
+	display: block;
+	text-align: center;
+	width: auto;
+	margin: 10px;
+	padding: 10px 0;
+}

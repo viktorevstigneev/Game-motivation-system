@@ -1,0 +1,86 @@
+.profile {
+	width: 70%;
+	margin: 0 auto;
+}
+.profile__image {
+	background-color: cornflowerblue;
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+	display: block;
+	margin-right: 1%;
+}
+.profile__header {
+	display: flex;
+	justify-content: space-between;
+}
+.profile__text {
+	width: 60%;
+}
+.profile-progress__wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+.profile-achievements__item {
+	display: flex;
+	align-items: center;
+}
+
+.profile-achievements__item img {
+	background: darkgoldenrod;
+	width: 30px;
+	height: 30px;
+}
+
+.profile-rewards__item {
+	display: flex;
+	align-items: center;
+}
+
+.profile-rewards__item img {
+	background: rgb(11, 57, 184);
+	width: 30px;
+	height: 30px;
+}
+
+.profile__edit-button{
+	display: block;
+	margin: 0 auto;
+	margin-top: 15%;
+}
+
+@media (max-width: 660px) {
+	.profile__text {
+		width: 100%;
+		text-align: center;
+	}
+	.profile__header {
+		display: block;
+		margin: 0 auto;
+	}
+	.profile__image {
+		display: block;
+		margin: 0 auto;
+	}
+}
+@media (max-width: 480px) {
+	.profile-progress__wrapper {
+		display: block;
+	}
+	.profile-rewards {
+		width: 50%;
+		margin: 0 auto;
+	}
+	.profile-achievements {
+		width: 50%;
+		margin: 0 auto;
+	}
+	.profile__image {
+		width: 150px;
+		height: 150px;
+		margin: 0 auto;
+	}
+	.profile__edit-button{
+		margin-top: 15%;
+	}
+}
